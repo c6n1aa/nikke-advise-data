@@ -62,11 +62,13 @@ python $IMP ja "XXX" --map "1:4A,2:8B"
 """
 
 import argparse
+import html
 import json
 import os
 import re
 import sys
 import urllib.request
+from collections import defaultdict
 from datetime import date
 
 _REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # scripts/ 的上级即仓库根。
@@ -109,6 +111,13 @@ def _cached(name, url, refresh, parse, headers=None):
 def _norm(text):
     """zh_CN 去换行与空白：JSON 层不保留换行（见 build_advise_db.py 说明）。"""
     return re.sub(r"\s+", "", text).strip()
+
+
+def _strip_html(text):
+    """en/ja 源里的行内标签：<br> 视作换行，其余标签剥掉，实体还原为字符。"""
+    text = re.sub(r"<br\s*/?>", "\n", text or "")
+    text = re.sub(r"<[^>]+>", "", text)
+    return html.unescape(text)
 
 
 # ------------------------------------------------------------------ 抓取
@@ -178,7 +187,8 @@ def fetch_ja_all(refresh=False):
                 tds = [x.strip() for x in re.findall(r"<td>(.*?)</td>", t, re.S)]
                 if not q or len(tds) != 4:
                     continue
-                items.append({"q": q.group(1).strip(), "a": tds[0], "b": tds[2],
+                items.append({"q": _strip_html(q.group(1)).strip(),
+                              "a": _strip_html(tds[0]), "b": _strip_html(tds[2]),
                               "mark": "A" if tds[1] == "◯" else ("B" if tds[3] == "◯" else "")})
             out[m.group(1).strip()] = items
         return out
@@ -208,26 +218,83 @@ def _parse_map(spec, src_count, need_side):
 
 
 def _resolve(lang, src_items, advises, spec):
-    """确定 {源序号: (目标序号, good 所在侧)}；返回 (mapping, 未对齐的源序号)。"""
+    """确定 {源序号: (目标序号, good 所在侧)}；返回 (mapping, 未对齐的源序号)。
+
+    源与本地顺序不同，且存在大量「相同问题文本」（如两条都是 "What should I do?"）。
+    故按信息量从多到少分三轮匹配，避免重复问题被全部对到同一条：
+      1. (prompt, good, bad) 三元组精确；
+      2. (good, bad) 精确（问题被改写、答案未变）；
+      3. prompt 精确（答案被改写、问题未变），同题文本按出现顺序一一对应。
+    """
     need_side = lang == "ja"
     manual = _parse_map(spec, len(src_items), need_side)
     if manual:
         return manual, []
 
-    index = {}
-    for i, a in enumerate(advises, 1):
-        t = _key(a["prompt"][lang])
-        if t:
-            index.setdefault(t, i)
-    hits, miss = {}, []
-    for s, it in enumerate(src_items, 1):
-        if _key(it["q"]) in index:
-            hits[s] = index[_key(it["q"])]
+    src_good, src_bad = [], []
+    for it in src_items:
+        if lang == "en":
+            src_good.append(it["good"])
+            src_bad.append(it["bad"])
+        elif it.get("mark") == "A":
+            src_good.append(it["a"])
+            src_bad.append(it["b"])
+        elif it.get("mark") == "B":
+            src_good.append(it["b"])
+            src_bad.append(it["a"])
         else:
-            miss.append(s)
+            src_good.append(None)
+            src_bad.append(None)
 
+    loc = [{"i": i, "q": _key(a["prompt"][lang]),
+            "g": _key(a["good"][lang]), "b": _key(a["bad"][lang])}
+           for i, a in enumerate(advises, 1)]
+    used = set()
+    hits = {}
+
+    def take(pred):
+        for x in loc:
+            if x["i"] not in used and pred(x):
+                used.add(x["i"])
+                return x["i"]
+        return None
+
+    for s in range(1, len(src_items) + 1):  # 1) 三元组
+        g, b = src_good[s - 1], src_bad[s - 1]
+        if g is None:
+            continue
+        q = _key(src_items[s - 1]["q"])
+        d = take(lambda x, q=q, g=g, b=b:
+                 x["q"] == q and x["g"] == _key(g) and x["b"] == _key(b))
+        if d:
+            hits[s] = d
+
+    for s in range(1, len(src_items) + 1):  # 2) 答案对
+        if s in hits:
+            continue
+        g, b = src_good[s - 1], src_bad[s - 1]
+        if g is None:
+            continue
+        d = take(lambda x, g=g, b=b: x["g"] == _key(g) and x["b"] == _key(b))
+        if d:
+            hits[s] = d
+
+    buckets = defaultdict(list)  # 3) 仅 prompt
+    for x in loc:
+        if x["i"] not in used:
+            buckets[x["q"]].append(x["i"])
+    for s in range(1, len(src_items) + 1):
+        if s in hits:
+            continue
+        q = _key(src_items[s - 1]["q"])
+        if buckets.get(q):
+            d = buckets[q].pop(0)
+            used.add(d)
+            hits[s] = d
+
+    miss = [s for s in range(1, len(src_items) + 1) if s not in hits]
     if miss:  # 未命中的用剩余空位补（仅当恰好一一对应时可接受）。
-        free = [i for i in range(1, BASE_COUNT + 1) if i not in set(hits.values())]
+        free = [x["i"] for x in loc if x["i"] not in used]
         if len(free) == len(miss):
             hits.update(dict(zip(miss, free)))
             miss = []

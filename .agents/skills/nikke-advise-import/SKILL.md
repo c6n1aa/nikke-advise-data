@@ -49,12 +49,18 @@ The importer defaults to dry run; nothing is written until `--apply`.
 python scripts\import_advise.py zh_CN 719742 [--at 麦斯威尔：平凡技师]
 ```
 
-The `--at` anchor is optional; characters default to the end. If gamekee's CDN blocks the script
-(HTTP 567), ask the user to save the content JSON from the browser and use offline import:
+The `--at` anchor is optional; characters default to the end.
+
+If gamekee's CDN blocks the script (HTTP 567), fetch the content JSON with `curl.exe`
+(sends different TLS fingerprint than Python's urllib) and import it offline:
 
 ```powershell
-python scripts\import_advise.py zh_CN 719742 --file saved.json
+# detail API 给出 content_cdn（api-cdn.gamekee.com/wiki2.0/pro/1253/content/<id>.json）
+curl.exe -s -o cache\<id>.json "<content_cdn URL>" -H "User-Agent: Mozilla/5.0 ... Chrome/120 Safari/537.36" -H "Referer: https://www.gamekee.com/"
+python scripts\import_advise.py zh_CN 719742 --file cache\<id>.json
 ```
+
+Only if curl also fails, ask the user to save the content JSON from the browser and use `--file`.
 
 ### 2. Fill / refresh English
 
@@ -74,9 +80,12 @@ python scripts\import_advise.py ja --all
 ### 4. Cross-validate before applying
 
 - Inspect the dry-run output (`[源NN -> 条目NN]` diffs plus the good side for ja).
-- The three sources use different internal orders; alignment is by question text, never by index.
+- The three sources use different internal orders; alignment is by text, never by index.
+  Many entries share an identical question text (e.g. two `"What should I do?"`), so the
+  importer matches on (prompt, good, bad) → (good, bad) → prompt, in that order.
 - Verify semantics rather than trusting position: some en questions are fragments (only the
   trailing half-sentence), ja good/bad may be inferred from the local text when the source lacks ◯.
+  gamewith uses `<br>`/`<span>` inline markup; the importer normalizes it (tags stripped, `<br>`→newline).
 - If a brand-new character has empty target-locale text and cannot align automatically, run once
   to see the对照 (prompt/options in source vs. the target entry), then give the mapping:
   en `--map "1:4,2:8"`；ja `--map "1:4A,2:8B"` (A/B = which option is good).
@@ -110,7 +119,8 @@ name table with `python scripts\gen_name_table.py` (regenerates `data/character_
 - The i18n JSON is the source of truth; build the DB from it, never edit the DB directly.
 - Copy source text verbatim: do not translate, paraphrase, or "complete" fragmentary prompts.
   Keep original punctuation (⋯、～、…、newlines in en/ja). zh_CN text is de-newlined on import.
-- Align by question text only; en/ja orders differ from zh_CN, so index-based fills corrupt data.
+- Align by text only; en/ja orders differ from zh_CN, and duplicate question texts exist, so
+  index-based fills corrupt data.
 - Cross-verify good/bad for ja when the source lacks ◯; if uncertain, ask or require `--map`.
 - Default is dry run; do not `--apply` without reviewing the diff (user may also ask to review).
 - Prefer `--char` (English name or index) over typing Chinese/Japanese in the console.
