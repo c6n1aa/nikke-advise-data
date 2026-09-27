@@ -77243,7 +77243,478 @@
           }
         }
       ]
+    },
+    {
+      "name": {
+        "zh_CN": "森：疾速兔女郎",
+        "zh_TW": "",
+        "en": "Sin: Swift Bunny",
+        "ja": "シン：スウィフトバニー",
+        "ko": ""
+      },
+      "advises": [
+        {
+          "prompt": {
+            "zh_CN": "教官不是最喜欢这件衣服了吗？",
+            "zh_TW": "",
+            "ja": "教官が好きそうな服じゃない？",
+            "ko": "",
+            "en": "This is the kind of outfit you like, isn't it?"
+          },
+          "good": {
+            "zh_CN": "你、你怎么知道？",
+            "zh_TW": "",
+            "ja": "どうして分かったんだ？",
+            "ko": "",
+            "en": "H-how did you know that?"
+          },
+          "bad": {
+            "zh_CN": "我什么时候说过那种话？",
+            "zh_TW": "",
+            "ja": "私が？",
+            "ko": "",
+            "en": "Since when?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我会为教官带来好运，教官能不能帮我实现一个愿望？",
+            "zh_TW": "",
+            "ja": "私が幸運を届けてあげるから、教官は私の願いを1つ聞いてくれない？",
+            "ko": "",
+            "en": "So how about this? I'll bring you some luck, and you grant me one favor. Deal?"
+          },
+          "good": {
+            "zh_CN": "好啊，什么愿望？",
+            "zh_TW": "",
+            "ja": "いいだろう。何だ？",
+            "ko": "",
+            "en": "All right, what is it?"
+          },
+          "bad": {
+            "zh_CN": "……不行。",
+            "zh_TW": "",
+            "ja": "⋯ダメだ",
+            "ko": "",
+            "en": "... No."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "最近到处跑来跑去又动了脑，真的累死我了。",
+            "zh_TW": "",
+            "ja": "教官、今日は休んじゃダメ？",
+            "ko": "",
+            "en": "I've been running all over the place and doing a lot of thinking lately, so I'm worn out."
+          },
+          "good": {
+            "zh_CN": "我只要跟森说说话，就会觉得更有精神耶？",
+            "zh_TW": "",
+            "ja": "私はシンと話すと元気が出るんだが⋯",
+            "ko": "",
+            "en": "For me, our talks are always energizing."
+          },
+          "bad": {
+            "zh_CN": "知道了，今天就休息吧。",
+            "zh_TW": "",
+            "ja": "分かった。今日は休め",
+            "ko": "",
+            "en": "All right, go get some rest."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "跟其他妮姬一队的话，应该会轻松一点。",
+            "zh_TW": "",
+            "ja": "他のニケの子たちと組んでいたら、もっと楽だったかもって思わない？",
+            "ko": "",
+            "en": "You could've had an easier time teaming up with some of the other Nikkes."
+          },
+          "good": {
+            "zh_CN": "虽然我一开始也是那么想的，但我改变想法了。",
+            "zh_TW": "",
+            "ja": "最初はそう思っていたが、今は考えが変わった",
+            "ko": "",
+            "en": "I did feel that way at first, but not anymore."
+          },
+          "bad": {
+            "zh_CN": "没这回事，我本来就觉得我们这队最好。",
+            "zh_TW": "",
+            "ja": "最初からこのチームが好きだった",
+            "ko": "",
+            "en": "No, it was fine. I liked our team from the start."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "每次看到玛娜，她好像都在喝酒。教官也喜欢喝酒吗？",
+            "zh_TW": "",
+            "ja": "教官も、お酒が好き？",
+            "ko": "",
+            "en": "Do you like drinking too?"
+          },
+          "good": {
+            "zh_CN": "偶尔小酌感觉还不错。",
+            "zh_TW": "",
+            "ja": "たまに飲むのは好きだ",
+            "ko": "",
+            "en": "I enjoy a drink every now and then."
+          },
+          "bad": {
+            "zh_CN": "我跟玛娜喝酒的习惯差不多。（",
+            "zh_TW": "",
+            "ja": "私もマナと同じくらい飲む",
+            "ko": "",
+            "en": "I drink about as much as Mana does."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "她把腋下露得那么明显，谁看了都会想逗她吧。",
+            "zh_TW": "",
+            "ja": "脇をあんなに出してたら、誰だってツンツンしたくなるでしょ？",
+            "ko": "",
+            "en": "How could anyone resist when her armpits are on display like that?"
+          },
+          "good": {
+            "zh_CN": "捉弄吉尔提确实很有趣。",
+            "zh_TW": "",
+            "ja": "確かに、ギルティをからかうのは楽しい",
+            "ko": "",
+            "en": "Yeah, teasing her really is pretty fun."
+          },
+          "bad": {
+            "zh_CN": "也别做得太过火。",
+            "zh_TW": "",
+            "ja": "ほどほどにしておけ",
+            "ko": "",
+            "en": "Still, you should go easy on her."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "玩游戏的时候要是有人犯规，大家不是都会出言训斥吗？教官对犯规有什么看法？",
+            "zh_TW": "",
+            "ja": "教官は反則についてどう思う？",
+            "ko": "",
+            "en": "How do you feel about cheating, Instructor?"
+          },
+          "good": {
+            "zh_CN": "胜负的世界本就如此残酷。",
+            "zh_TW": "",
+            "ja": "勝負の世界は残酷なものだ",
+            "ko": "",
+            "en": "All bets are off when it comes to competition."
+          },
+          "bad": {
+            "zh_CN": "玩游戏本来就得公平。",
+            "zh_TW": "",
+            "ja": "ゲームはフェアにやるべきだ",
+            "ko": "",
+            "en": "Games should be played fairly."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我也想试试用别的名字称呼教官，有没有什么不错的建议呢？",
+            "zh_TW": "",
+            "ja": "「教官」以外の呼び方にしてみようと思うんだけど、何かいいのはない？",
+            "ko": "",
+            "en": "I've been thinking of calling you something other than \"Instructor.\" Any ideas?"
+          },
+          "good": {
+            "zh_CN": "现在这样简简单单的也挺好。",
+            "zh_TW": "",
+            "ja": "今のほうが簡潔でいい",
+            "ko": "",
+            "en": "I like what you call me now. It's simple."
+          },
+          "bad": {
+            "zh_CN": "指挥官怎么样？",
+            "zh_TW": "",
+            "ja": "指揮官はどうだ？",
+            "ko": "",
+            "en": "What about Commander?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我在游戏里逛了一圈，发现有好多兔女郎和女仆。教官比较喜欢哪一个？",
+            "zh_TW": "",
+            "ja": "バニーガールとメイド、教官は、どっちが好みなの？",
+            "ko": "",
+            "en": "Which is more your type?"
+          },
+          "good": {
+            "zh_CN": "兔女郎森。",
+            "zh_TW": "",
+            "ja": "バニーガール",
+            "ko": "",
+            "en": "You as a bunny girl."
+          },
+          "bad": {
+            "zh_CN": "女仆。",
+            "zh_TW": "",
+            "ja": "メイド",
+            "ko": "",
+            "en": "Maids."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "本来还担心不合身，没想到穿上后弹性很好，穿着也很舒服。",
+            "zh_TW": "",
+            "ja": "この服、意外と気に入ってるの。",
+            "ko": "",
+            "en": "I thought it would be too tight, but once I tried it on, it turned out to be stretchy and comfortable."
+          },
+          "good": {
+            "zh_CN": "重点是很适合你。",
+            "zh_TW": "",
+            "ja": "何より似合っている",
+            "ko": "",
+            "en": "And most importantly, it suits you."
+          },
+          "bad": {
+            "zh_CN": "不过这件不会太透了吗？",
+            "zh_TW": "",
+            "ja": "だいぶ透けているが⋯",
+            "ko": "",
+            "en": "Isn't it a little too revealing, though?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "遇到天敌或障碍物时，也会想办法解决问题。",
+            "zh_TW": "",
+            "ja": "教官、ウサギって思ったよりずる賢い動物だって知ってた？",
+            "ko": "",
+            "en": "and they're able to devise ways to shake off predators and get around obstacles."
+          },
+          "good": {
+            "zh_CN": "跟森有点像呢。",
+            "zh_TW": "",
+            "ja": "シンに似ているな",
+            "ko": "",
+            "en": "That sounds a lot like you."
+          },
+          "bad": {
+            "zh_CN": "跟森不太一样呢。",
+            "zh_TW": "",
+            "ja": "シンとは違うな",
+            "ko": "",
+            "en": "That doesn't sound much like you."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "如果每次和兔女郎在一起都会招来不幸，教官会怎么做？",
+            "zh_TW": "",
+            "ja": "バニーガールと一緒にいることで不幸になるとしたら、教官はどうする？",
+            "ko": "",
+            "en": "Well would you do if, every time you were around one, you had bad luck?"
+          },
+          "good": {
+            "zh_CN": "相信会有更大的幸运降临。",
+            "zh_TW": "",
+            "ja": "もっと大きな幸運が来ると信じる",
+            "ko": "",
+            "en": "I'd have faith that greater luck awaits me."
+          },
+          "bad": {
+            "zh_CN": "悄悄保持距离。",
+            "zh_TW": "",
+            "ja": "さりげなく距離を置く",
+            "ko": "",
+            "en": "I'd start to gradually put distance between us."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "不仅有很多好吃的食物，还有很多好玩的东西～",
+            "zh_TW": "",
+            "ja": "教官、特に用事がないなら、私とここを見て回らない？",
+            "ko": "",
+            "en": "There's tons of good food and a lot of stuff to do here."
+          },
+          "good": {
+            "zh_CN": "好啊，我们要从哪里开始逛？",
+            "zh_TW": "",
+            "ja": "分かった。どこから見ようか？",
+            "ko": "",
+            "en": "Yeah, sounds fun. Where do you want to start exploring?"
+          },
+          "bad": {
+            "zh_CN": "今天有点忙，可能去不了。",
+            "zh_TW": "",
+            "ja": "今日は忙しい",
+            "ko": "",
+            "en": "I'm pretty busy today, so I don't think I can."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我好像有点习惯金币之战了。昨天我和其他妮姬也玩得很开心～",
+            "zh_TW": "",
+            "ja": "コインラッシュで昨日も他のニケの子たちと、すっごく楽しく遊んだの～",
+            "ko": "",
+            "en": "Just last night, I had a lot of fun with some of the other Nikkes."
+          },
+          "good": {
+            "zh_CN": "森不管在哪里都适应得很好呢。",
+            "zh_TW": "",
+            "ja": "シンはどこでもうまくやっていけるんだな",
+            "ko": "",
+            "en": "You seem to be good at fitting in wherever you go."
+          },
+          "bad": {
+            "zh_CN": "难怪昨晚有点吵。",
+            "zh_TW": "",
+            "ja": "どうりで夜、うるさかったわけだ",
+            "ko": "",
+            "en": "That explains all of the noise."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "教官，要不要我告诉你在金币之战里能获胜的方法？",
+            "zh_TW": "",
+            "ja": "教官、コインラッシュで勝てる方法、教えてほしい？",
+            "ko": "",
+            "en": "Wanna hear some tips on how to win at Coin Rush?"
+          },
+          "good": {
+            "zh_CN": "没关系，我没兴趣。",
+            "zh_TW": "",
+            "ja": "興味はないから大丈夫だ",
+            "ko": "",
+            "en": "I appreciate the offer, but the games don't interest me that much."
+          },
+          "bad": {
+            "zh_CN": "告诉我吧。",
+            "zh_TW": "",
+            "ja": "教えてくれ",
+            "ko": "",
+            "en": "Yeah, tell me."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "游戏看起来很好玩，我玩了一下才过来。等很久了吗？",
+            "zh_TW": "",
+            "ja": "だいぶ遅れちゃった？",
+            "ko": "",
+            "en": "The games looked fun that I stopped to play a bit on my way over. Have you been waiting long?"
+          },
+          "good": {
+            "zh_CN": "还好，要喝点水吗？",
+            "zh_TW": "",
+            "ja": "大丈夫だ。水でも飲むか？",
+            "ko": "",
+            "en": "Nah, it's fine. Want some water?"
+          },
+          "bad": {
+            "zh_CN": "嗯，等了一阵子。",
+            "zh_TW": "",
+            "ja": "ああ。かなり待った",
+            "ko": "",
+            "en": "Yeah, I've been here for a while now."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "真的吗？但我明明不是蝴蝶，而是兔子啊～？",
+            "zh_TW": "",
+            "ja": "蝶じゃなくてウサギのはずなんだけど⋯",
+            "ko": "",
+            "en": "A butterfly...? I'm pretty sure this is a bunny girl outfit."
+          },
+          "good": {
+            "zh_CN": "因为像蝴蝶一样美丽，所以才会搞混吧。",
+            "zh_TW": "",
+            "ja": "蝶のように美しくて、見間違えてしまった",
+            "ko": "",
+            "en": "Maybe I got confused, since you're as pretty as a butterfly."
+          },
+          "bad": {
+            "zh_CN": "嗯……仔细一看，好像也有点像兔子。",
+            "zh_TW": "",
+            "ja": "うーん⋯よく見ると、ウサギのようでもあるな",
+            "ko": "",
+            "en": "Hmm... Now that I look again, you do look like a bunny."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我已经改过自新了，还要继续戴着转换器吗？",
+            "zh_TW": "",
+            "ja": "もう更生したのに、まだコンバーターが必要なの？",
+            "ko": "",
+            "en": "I've already been rehabilitated. Do I really still have to wear it?"
+          },
+          "good": {
+            "zh_CN": "至少要有转换器，好像才能控制住。",
+            "zh_TW": "",
+            "ja": "コンバーターがなければ制御が難しいからだ",
+            "ko": "",
+            "en": "I think the converter is necessary to keep you under control."
+          },
+          "bad": {
+            "zh_CN": "以防万一，小心点总是好的。",
+            "zh_TW": "",
+            "ja": "万が一のためだ",
+            "ko": "",
+            "en": "It's better to be safe than sorry."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大家看起来都很喜欢教官。",
+            "zh_TW": "",
+            "ja": "みんな教官のことが本当に大好きなのね。",
+            "ko": "",
+            "en": "They must really like you."
+          },
+          "good": {
+            "zh_CN": "但跟我最要好的，还是森～",
+            "zh_TW": "",
+            "ja": "だが、私の親友はシンだ",
+            "ko": "",
+            "en": "You're still my best friend, though."
+          },
+          "bad": {
+            "zh_CN": "不知不觉就跟大家都混熟了。",
+            "zh_TW": "",
+            "ja": "いつの間にか、みんなと仲良くなっていた",
+            "ko": "",
+            "en": "It happened naturally. I just kinda became close with all of them."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "可能是因为我们常常聊天吧？教官觉得呢？",
+            "zh_TW": "",
+            "ja": "ここにいると、教官にもっと近づけた気がするわね～",
+            "ko": "",
+            "en": "What do you think?"
+          },
+          "good": {
+            "zh_CN": "本来就和森很熟。",
+            "zh_TW": "",
+            "ja": "シンとは元々仲がよかっただろ？",
+            "ko": "",
+            "en": "We were already close to begin with."
+          },
+          "bad": {
+            "zh_CN": "这个嘛，好像还不够。",
+            "zh_TW": "",
+            "ja": "まだ足りない気がするな",
+            "ko": "",
+            "en": "Hmm, I don't think we're close enough just yet."
+          }
+        }
+      ]
     }
   ],
-  "last_update": "2026-09-20"
+  "last_update": "2026-09-27"
 }
