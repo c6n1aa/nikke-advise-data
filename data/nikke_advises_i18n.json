@@ -77714,7 +77714,478 @@
           }
         }
       ]
+    },
+    {
+      "name": {
+        "zh_CN": "贝洛塔：南瓜女巫",
+        "zh_TW": "",
+        "en": "Belorta: Pumpkin Witch",
+        "ja": "ベロータ：パンプキンウィッチ",
+        "ko": ""
+      },
+      "advises": [
+        {
+          "prompt": {
+            "zh_CN": "为了庆祝万圣节，我特地打扮成了这样，你觉得如何？",
+            "zh_TW": "",
+            "ja": "ハロウィンの記念に着てみたんだけど、どう？",
+            "ko": "",
+            "en": "What do you think of my Halloween costume?"
+          },
+          "good": {
+            "zh_CN": "吓了我一跳。",
+            "zh_TW": "",
+            "ja": "驚いた",
+            "ko": "",
+            "en": "You scared me."
+          },
+          "bad": {
+            "zh_CN": "超适合你。",
+            "zh_TW": "",
+            "ja": "とてもよく似合っている",
+            "ko": "",
+            "en": "It looks great on you."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "你觉得玩什么恶作剧好呢？",
+            "zh_TW": "",
+            "ja": "ハロウィンっぽいイタズラをしたいんだけど、どんなのがいいかな？",
+            "ko": "",
+            "en": "Got any ideas?"
+          },
+          "good": {
+            "zh_CN": "把大家的糖果偷偷调包如何？",
+            "zh_TW": "",
+            "ja": "キャンディをすり替えるのはどうだ？",
+            "ko": "",
+            "en": "How about swapping out their candy?"
+          },
+          "bad": {
+            "zh_CN": "吓大家一跳如何？",
+            "zh_TW": "",
+            "ja": "驚かせるのはどうだ？",
+            "ko": "",
+            "en": "How about giving people a scare?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "你觉得什么糖果比较好呢？",
+            "zh_TW": "",
+            "ja": "おもちゃ屋にはどんなキャンディを用意すればいいかな？",
+            "ko": "",
+            "en": "What kind do you think I should get?"
+          },
+          "good": {
+            "zh_CN": "吸血鬼糖果。",
+            "zh_TW": "",
+            "ja": "ドラキュラキャンディ",
+            "ko": "",
+            "en": "Vampire candies."
+          },
+          "bad": {
+            "zh_CN": "南瓜口味的糖果。",
+            "zh_TW": "",
+            "ja": "カボチャ味のキャンディ",
+            "ko": "",
+            "en": "Pumpkin-flavored candies."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大叔有没有特别怕哪种万圣节装扮啊？老实说嘛～",
+            "zh_TW": "",
+            "ja": "おじさんはさ、怖いなって思うハロウィンのコスチュームはある？",
+            "ko": "",
+            "en": "Come on, be honest!"
+          },
+          "good": {
+            "zh_CN": "僵尸装。",
+            "zh_TW": "",
+            "ja": "ゾンビの仮装",
+            "ko": "",
+            "en": "Zombie costumes."
+          },
+          "bad": {
+            "zh_CN": "没有特别怕的。",
+            "zh_TW": "",
+            "ja": "特にない",
+            "ko": "",
+            "en": "Nothing, really."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "不给糖，就捣蛋♡",
+            "zh_TW": "",
+            "ja": "おじさん！Trick or Treat♡",
+            "ko": "",
+            "en": "Trick or treat ♡"
+          },
+          "good": {
+            "zh_CN": "糖果给你，拜托别捣蛋了～",
+            "zh_TW": "",
+            "ja": "キャンディをあげるからイタズラはしないでくれ～",
+            "ko": "",
+            "en": "I'll give you some candy, so no tricks, okay?"
+          },
+          "bad": {
+            "zh_CN": "我没有糖果……",
+            "zh_TW": "",
+            "ja": "キャンディがない⋯",
+            "ko": "",
+            "en": "I don't have any candy..."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "不觉得会超级幸福吗？",
+            "zh_TW": "",
+            "ja": "キャンディを山積みにして一日中食べたら、どんな気分だろう？",
+            "ko": "",
+            "en": "Wouldn't that be amazing?"
+          },
+          "good": {
+            "zh_CN": "光想就觉得好幸福。",
+            "zh_TW": "",
+            "ja": "想像しただけで幸せだな",
+            "ko": "",
+            "en": "Just thinking about it makes me happy."
+          },
+          "bad": {
+            "zh_CN": "太甜了，感觉很快就会腻……",
+            "zh_TW": "",
+            "ja": "甘すぎて、すぐに飽きてしまいそうだ⋯",
+            "ko": "",
+            "en": "It's so sweet, you'd probably get tired of it pretty quickly."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "这样就能像真正的德古拉一样睡觉了！",
+            "zh_TW": "",
+            "ja": "もし私がおじさんのベッドを棺桶に変えたらどう思う？",
+            "ko": "",
+            "en": "Then you can sleep just like Dracula!"
+          },
+          "good": {
+            "zh_CN": "如果只换一天，或许还好……",
+            "zh_TW": "",
+            "ja": "一日だけなら、いいかもな⋯",
+            "ko": "",
+            "en": "Maybe if it's just for one day..."
+          },
+          "bad": {
+            "zh_CN": "我还是想睡得舒服一点……",
+            "zh_TW": "",
+            "ja": "普通のベッドで眠りたい⋯",
+            "ko": "",
+            "en": "I'd rather sleep in a comfortable bed..."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "那个……是血吧！！大叔是吸血鬼吗？！",
+            "zh_TW": "",
+            "ja": "おじさんってヴァンパイアなの！？",
+            "ko": "",
+            "en": "Are you a vampire?!"
+          },
+          "good": {
+            "zh_CN": "不是！我是人类！",
+            "zh_TW": "",
+            "ja": "違う！私は人間だ！",
+            "ko": "",
+            "en": "Nope! I'm human!"
+          },
+          "bad": {
+            "zh_CN": "其实……我……也有像吸血鬼一样在喝的东西……",
+            "zh_TW": "",
+            "ja": "実は⋯私にもヴァンパイアのように飲まないと生きられないものがあるんだ⋯",
+            "ko": "",
+            "en": "Actually... there's something I drink like a vampire too..."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "猜猜看这个南瓜篮里装了什么～",
+            "zh_TW": "",
+            "ja": "このカボチャのバスケットに何が入ってるか当ててみて～",
+            "ko": "",
+            "en": "Guess what's inside this pumpkin basket!"
+          },
+          "good": {
+            "zh_CN": "会动的玩具？",
+            "zh_TW": "",
+            "ja": "動くおもちゃ？",
+            "ko": "",
+            "en": "A toy that moves?"
+          },
+          "bad": {
+            "zh_CN": "糖果？",
+            "zh_TW": "",
+            "ja": "キャンディ？",
+            "ko": "",
+            "en": "Candy?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "真希望每天都是万圣节♡",
+            "zh_TW": "",
+            "ja": "毎日がハロウィンだったらいいのに♡",
+            "ko": "",
+            "en": "I wish it were Halloween every single day! ♡"
+          },
+          "good": {
+            "zh_CN": "我也超喜欢万圣节。",
+            "zh_TW": "",
+            "ja": "私もハロウィンが大好きだ",
+            "ko": "",
+            "en": "I love Halloween, too."
+          },
+          "bad": {
+            "zh_CN": "可是贝洛塔平常每天都在恶作剧、吃糖果、放烟火啊。",
+            "zh_TW": "",
+            "ja": "でも、ベロータは毎日イタズラもするし、キャンディも食べるし爆竹遊びだってしているじゃないか",
+            "ko": "",
+            "en": "But you already do all that every day, Belorta."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "这次要用什么主题好呢？",
+            "zh_TW": "",
+            "ja": "おもちゃ屋の模様替え、今回はどんなコンセプトにしようかな？",
+            "ko": "",
+            "en": "What theme should I go with this year?"
+          },
+          "good": {
+            "zh_CN": "布置成恐怖风格怎么样？",
+            "zh_TW": "",
+            "ja": "ホラーはどうだ？",
+            "ko": "",
+            "en": "How about a spooky theme?"
+          },
+          "bad": {
+            "zh_CN": "布置成甜美可爱的风格怎么样？",
+            "zh_TW": "",
+            "ja": "甘くて可愛い感じはどうだ？",
+            "ko": "",
+            "en": "How about a sweet and cute theme?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大叔，你觉得米卡适合什么样的装扮？",
+            "zh_TW": "",
+            "ja": "おじさん、ミカにはどんなコスチュームが似合うと思う？",
+            "ko": "",
+            "en": "What costume do you think would suit her best, Old-Timer?"
+          },
+          "good": {
+            "zh_CN": "可爱的卖火柴小女孩。",
+            "zh_TW": "",
+            "ja": "かわいいマッチ売りの少女",
+            "ko": "",
+            "en": "A cute Little Match Girl."
+          },
+          "bad": {
+            "zh_CN": "反差感十足的吸血鬼。",
+            "zh_TW": "",
+            "ja": "ギャップ萌えなヴァンパイア",
+            "ko": "",
+            "en": "An unexpectedly charming vampire."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "咦？大叔，你是在扮僵尸吗？你的黑眼圈也太逼真了吧！",
+            "zh_TW": "",
+            "ja": "あれ？おじさん、ゾンビの仮装してるの？",
+            "ko": "",
+            "en": "Your dark circles are no joke!"
+          },
+          "good": {
+            "zh_CN": "因为是万圣节，所以试着打扮了一下。你觉得怎么样？",
+            "zh_TW": "",
+            "ja": "ハロウィンだからやってみたんだ。どうだ？",
+            "ko": "",
+            "en": "Yeah, it's Halloween, so I figured I'd dress up. What do you think?"
+          },
+          "bad": {
+            "zh_CN": "没有啦，我只是太累了……",
+            "zh_TW": "",
+            "ja": "いや、ただ疲れていて⋯",
+            "ko": "",
+            "en": "No, I'm just tired..."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大叔，一天结束后，独自待在熄了灯的指挥官室里，不会觉得寂寞吗？",
+            "zh_TW": "",
+            "ja": "おじさんは、一日の終わりに明かりの消えた指揮官室に一人でいて、寂しくないの？",
+            "ko": "",
+            "en": "Hey, Old-Timer. Don't you get lonely at night when you're all alone in your room?"
+          },
+          "good": {
+            "zh_CN": "所以我会想明天要玩什么恶作剧。",
+            "zh_TW": "",
+            "ja": "寂しくならないよう、明日のイタズラを計画している",
+            "ko": "",
+            "en": "That's when I plan tomorrow's pranks."
+          },
+          "bad": {
+            "zh_CN": "还好，不会。",
+            "zh_TW": "",
+            "ja": "別に寂しくない",
+            "ko": "",
+            "en": "Not really."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大叔，你觉得万圣节的象征是什么？",
+            "zh_TW": "",
+            "ja": "おじさんは、ハロウィンと言えば何が思い浮かぶ？",
+            "ko": "",
+            "en": "What's the first thing that comes to mind when you think of Halloween, Old-Timer?"
+          },
+          "good": {
+            "zh_CN": "当然是南瓜。",
+            "zh_TW": "",
+            "ja": "当然、カボチャだ",
+            "ko": "",
+            "en": "Pumpkins, of course."
+          },
+          "bad": {
+            "zh_CN": "可爱的蝙蝠？",
+            "zh_TW": "",
+            "ja": "かわいいコウモリ？",
+            "ko": "",
+            "en": "Cute bats?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "啊，大叔，对不起！因为是万圣节，我忙着弄造型，不小心就迟到了。",
+            "zh_TW": "",
+            "ja": "何に飾りをつけたんだ？",
+            "ko": "",
+            "en": "It's okay. So what were you getting ready?"
+          },
+          "good": {
+            "zh_CN": "是打扮你自己吗？",
+            "zh_TW": "",
+            "ja": "ベロータにか？",
+            "ko": "",
+            "en": "Yourself?"
+          },
+          "bad": {
+            "zh_CN": "是布置玩具店吗？",
+            "zh_TW": "",
+            "ja": "おもちゃ屋にか？",
+            "ko": "",
+            "en": "The toy store?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大叔，你最期待万圣节庆典的哪一部分？",
+            "zh_TW": "",
+            "ja": "おじさん、ハロウィンのお祭りで何が一番楽しみ？",
+            "ko": "",
+            "en": "What are you looking forward to most at the Halloween festival, Old-Timer?"
+          },
+          "good": {
+            "zh_CN": "当然是烟火秀。",
+            "zh_TW": "",
+            "ja": "もちろん、花火だ",
+            "ko": "",
+            "en": "The fireworks."
+          },
+          "bad": {
+            "zh_CN": "当然是特别表演。",
+            "zh_TW": "",
+            "ja": "当然、特別ステージだろう",
+            "ko": "",
+            "en": "The special stage."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我想吃点特别的，但又不知道有什么。",
+            "zh_TW": "",
+            "ja": "ハロウィンの定番の食べ物って何があるかな？",
+            "ko": "",
+            "en": "I want to eat something special, but I don't know what."
+          },
+          "good": {
+            "zh_CN": "南瓜浓汤？",
+            "zh_TW": "",
+            "ja": "カボチャスープ？",
+            "ko": "",
+            "en": "Pumpkin soup?"
+          },
+          "bad": {
+            "zh_CN": "好像没有什么特别具代表性的食物吧。",
+            "zh_TW": "",
+            "ja": "特に定番のものはないと思う",
+            "ko": "",
+            "en": "I don't think there's really a classic Halloween food."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "大叔梦到什么了？",
+            "zh_TW": "",
+            "ja": "おじさんは何が夢に出てきた？",
+            "ko": "",
+            "en": "So? What showed up in your dream, Old-Timer?"
+          },
+          "good": {
+            "zh_CN": "贝洛塔。",
+            "zh_TW": "",
+            "ja": "ベロータ",
+            "ko": "",
+            "en": "You."
+          },
+          "bad": {
+            "zh_CN": "什么都没梦到。",
+            "zh_TW": "",
+            "ja": "何も出てこなかった",
+            "ko": "",
+            "en": "Nothing."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "把指挥官室改造成鬼屋怎么样？",
+            "zh_TW": "",
+            "ja": "指揮官室をお化け屋敷に改造してみるのはどう？",
+            "ko": "",
+            "en": "why don't we switch things up and turn your room into a haunted house?"
+          },
+          "good": {
+            "zh_CN": "贝洛塔会帮我吗？",
+            "zh_TW": "",
+            "ja": "ベロータが手伝ってくれるのか？",
+            "ko": "",
+            "en": "You'll help me, right, Belorta?"
+          },
+          "bad": {
+            "zh_CN": "我不太能应付恐怖的东西……",
+            "zh_TW": "",
+            "ja": "怖いのは苦手だ⋯",
+            "ko": "",
+            "en": "I'm not good with scary stuff..."
+          }
+        }
+      ]
     }
   ],
-  "last_update": "2026-09-27"
+  "last_update": "2026-10-16"
 }
