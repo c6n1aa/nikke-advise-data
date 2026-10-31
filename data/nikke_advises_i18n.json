@@ -78185,7 +78185,478 @@
           }
         }
       ]
+    },
+    {
+      "name": {
+        "zh_CN": "玛丽安：女王",
+        "zh_TW": "",
+        "en": "Marian: Queen",
+        "ja": "マリアン：クイーン",
+        "ko": ""
+      },
+      "advises": [
+        {
+          "prompt": {
+            "zh_CN": "嗯？这是什么？",
+            "zh_TW": "",
+            "ja": "あら？何ですか？",
+            "ko": "",
+            "en": "Hm? What's this?"
+          },
+          "good": {
+            "zh_CN": "摊开握紧的手，拿出花。",
+            "zh_TW": "",
+            "ja": "手を開き、中に隠していた花を見せる",
+            "ko": "",
+            "en": "Open my hand to reveal a flower."
+          },
+          "bad": {
+            "zh_CN": "把手用力一甩，泼她水。",
+            "zh_TW": "",
+            "ja": "勢いよく手を振って、水を飛ばす",
+            "ko": "",
+            "en": "Flick my fingers hard to splash her with water."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官喜欢和什么样的人待在一起呢？只要待在一起，就总会忍不住露出笑容的人？还是……只要待在一起，就会觉得心动的人？",
+            "zh_TW": "",
+            "ja": "それとも⋯一緒にいるとドキドキしちゃう人ですか？",
+            "ko": "",
+            "en": "Or... someone who makes your heart race?"
+          },
+          "good": {
+            "zh_CN": "会让我笑出来的人。",
+            "zh_TW": "",
+            "ja": "一緒にいると、自然と笑顔になれる人",
+            "ko": "",
+            "en": "Someone who makes me laugh."
+          },
+          "bad": {
+            "zh_CN": "会让我心动的人。",
+            "zh_TW": "",
+            "ja": "一緒にいると、ドキドキする人",
+            "ko": "",
+            "en": "Someone who makes my heart race."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官觉得善意的谎言是必要的吗？",
+            "zh_TW": "",
+            "ja": "指揮官は、善意の嘘は必要だと思いますか？",
+            "ko": "",
+            "en": "Do you think white lies are necessary, Commander?"
+          },
+          "good": {
+            "zh_CN": "善意的谎言应该可以吧？",
+            "zh_TW": "",
+            "ja": "善意からくるものなら、いいんじゃないか？",
+            "ko": "",
+            "en": "If the intentions behind the lie are good, then isn't it all right?"
+          },
+          "bad": {
+            "zh_CN": "再怎么说，说谎还是不好啊。",
+            "zh_TW": "",
+            "ja": "善意からでも、嘘はよくない",
+            "ko": "",
+            "en": "Lying isn't good, even if it's just a white lie."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "不想吃干粮，想吃点好吃的……没有别的东西了吗？",
+            "zh_TW": "",
+            "ja": "保存食じゃなくて、おいしいものが食べたいですね⋯何かないでしょうか？",
+            "ko": "",
+            "en": "I don't really want rations again. I want something tasty... Do we have anything like that?"
+          },
+          "good": {
+            "zh_CN": "想吃什么尽管说，我做给你吃。",
+            "zh_TW": "",
+            "ja": "食べたいものを言ってくれ。何でも作ろう",
+            "ko": "",
+            "en": "Tell me whatever you want. I'll make it for you."
+          },
+          "bad": {
+            "zh_CN": "反正能吃的东西也只有干粮，不是吗？",
+            "zh_TW": "",
+            "ja": "食べられるものは、保存食しかないだろう？",
+            "ko": "",
+            "en": "I mean... all we've ever really had are rations, right?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官最害怕什么呢？每天都看见的莱彻？还是幽灵？！",
+            "zh_TW": "",
+            "ja": "毎日遭遇するラプチャー？それとも、幽霊とか！？",
+            "ko": "",
+            "en": "The Raptures we see every day? Or maybe ghosts?!"
+          },
+          "good": {
+            "zh_CN": "没有玛丽安的世界。",
+            "zh_TW": "",
+            "ja": "マリアンのいない世界",
+            "ko": "",
+            "en": "A world without you."
+          },
+          "bad": {
+            "zh_CN": "玛丽安。",
+            "zh_TW": "",
+            "ja": "マリアン",
+            "ko": "",
+            "en": "You."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，大家不是常说，成为恋人之后，最先改变的就是称呼吗？我们也要不要也换一下？",
+            "zh_TW": "",
+            "ja": "私たちも変えたほうがいいでしょうか？",
+            "ko": "",
+            "en": "Should we change what we call each other too?"
+          },
+          "good": {
+            "zh_CN": "我觉得「指挥官」很好啊。",
+            "zh_TW": "",
+            "ja": "私は「指揮官」のままがいい",
+            "ko": "",
+            "en": "I don't know. I still like \"Commander.\""
+          },
+          "bad": {
+            "zh_CN": "叫「老公」怎么样？",
+            "zh_TW": "",
+            "ja": "「あなた」は、どうだ？",
+            "ko": "",
+            "en": "How about \"honey\"?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "玛丽安默默地靠在我的肩膀上。",
+            "zh_TW": "",
+            "ja": "マリアンが静かに肩に寄りかかってきた",
+            "ko": "",
+            "en": "Marian quietly leans on my shoulder."
+          },
+          "good": {
+            "zh_CN": "搂住玛丽安的肩膀。",
+            "zh_TW": "",
+            "ja": "マリアンの肩を抱き寄せる",
+            "ko": "",
+            "en": "Put my arm around Marian's shoulders."
+          },
+          "bad": {
+            "zh_CN": "很累吗？",
+            "zh_TW": "",
+            "ja": "疲れたか？",
+            "ko": "",
+            "en": "Tired?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我失去了所有记忆之后重新遇见指挥官的话，您会对我说什么呢？",
+            "zh_TW": "",
+            "ja": "私が記憶を全部失って、指揮官とまた出会ったとしたら、何と声をかけますか？",
+            "ko": "",
+            "en": "If I lost all my memories and met you again, what would you say to me?"
+          },
+          "good": {
+            "zh_CN": "嗨，玛丽安。",
+            "zh_TW": "",
+            "ja": "やあ、マリアン",
+            "ko": "",
+            "en": "Hi, Marian."
+          },
+          "bad": {
+            "zh_CN": "……完全不敢想象。",
+            "zh_TW": "",
+            "ja": "⋯想像もしたくない",
+            "ko": "",
+            "en": "... I don't even want to imagine it."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，您昨天边睡觉边打呼哦？您昨天很累吗？",
+            "zh_TW": "",
+            "ja": "そんなにお疲れだったんですか？",
+            "ko": "",
+            "en": "Were you really that tired?"
+          },
+          "good": {
+            "zh_CN": "……你讨厌吗？",
+            "zh_TW": "",
+            "ja": "⋯嫌だったか？",
+            "ko": "",
+            "en": "... Did it bother you?"
+          },
+          "bad": {
+            "zh_CN": "玛丽安不是也边睡边磨牙吗？",
+            "zh_TW": "",
+            "ja": "マリアンだって歯ぎしりをしていた",
+            "ko": "",
+            "en": "You grind your teeth in your sleep, Marian."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "感觉自己应该一辈子都无法忘记，像这样和指挥官在一起的时光。",
+            "zh_TW": "",
+            "ja": "私、こうして指揮官と過ごす時間を一生忘れないと思います。",
+            "ko": "",
+            "en": "I don't think I'll ever forget all the time I've spent with you."
+          },
+          "good": {
+            "zh_CN": "以后应该还会有更多吧？",
+            "zh_TW": "",
+            "ja": "これから一緒に過ごす時間のほうがもっと長いだろう？",
+            "ko": "",
+            "en": "What do you mean? Our time together's just starting."
+          },
+          "bad": {
+            "zh_CN": "我也是。",
+            "zh_TW": "",
+            "ja": "私もだ",
+            "ko": "",
+            "en": "Me neither."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，我们之后要不要也一起养个什么？植物也好，小狗或小猫好像也不错。",
+            "zh_TW": "",
+            "ja": "植物でもいいですし、ワンちゃんとかネコちゃんもよさそうですね。",
+            "ko": "",
+            "en": "You know, like a plant, or a puppy, or a kitten..."
+          },
+          "good": {
+            "zh_CN": "要取什么名字好呢？",
+            "zh_TW": "",
+            "ja": "名前は何にする？",
+            "ko": "",
+            "en": "What should we name it?"
+          },
+          "bad": {
+            "zh_CN": "我们能够养好吗？",
+            "zh_TW": "",
+            "ja": "私たちに、うまく育てられるだろうか？",
+            "ko": "",
+            "en": "You think we'd be good at it?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，假如可以在过去和未来之中，选择一边前往的话，您会想去哪里呢？",
+            "zh_TW": "",
+            "ja": "どちらに行ってみたいですか？",
+            "ko": "",
+            "en": "... which would you choose?"
+          },
+          "good": {
+            "zh_CN": "两边都不想去。",
+            "zh_TW": "",
+            "ja": "どちらも行きたくない",
+            "ko": "",
+            "en": "Neither of them."
+          },
+          "bad": {
+            "zh_CN": "过去。",
+            "zh_TW": "",
+            "ja": "過去",
+            "ko": "",
+            "en": "The past."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "玛丽安安静地注视着我。",
+            "zh_TW": "",
+            "ja": "マリアンがこちらをじっと見つめている",
+            "ko": "",
+            "en": "Marian stares at me intently."
+          },
+          "good": {
+            "zh_CN": "也安静地注视对方。",
+            "zh_TW": "",
+            "ja": "こちらをじっと見つめ返す",
+            "ko": "",
+            "en": "Stare back at her."
+          },
+          "bad": {
+            "zh_CN": "紧紧贴近玛丽安的脸。",
+            "zh_TW": "",
+            "ja": "マリアンに顔を近づける",
+            "ko": "",
+            "en": "Lean in close."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，今天的天空更晴朗了呢。像这种日子，就这样静静地躺着看云感觉也不错，对吧？",
+            "zh_TW": "",
+            "ja": "こんな日は、ただ寝転がって雲を眺めているだけでも気持ち良さそうですよね。",
+            "ko": "",
+            "en": "It'd be nice to just lie down and watch the clouds on a day like this. Don't you think?"
+          },
+          "good": {
+            "zh_CN": "要不要今天就那样试试？",
+            "zh_TW": "",
+            "ja": "今日はそうしようか？",
+            "ko": "",
+            "en": "Wanna do that today?"
+          },
+          "bad": {
+            "zh_CN": "因为莱彻，应该没办法休息吧。",
+            "zh_TW": "",
+            "ja": "ラプチャーがいる、休むのは難しいだろう",
+            "ko": "",
+            "en": "But the Raptures won't let us rest."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "话说回来，指挥官比较喜欢白天还是晚上呢？",
+            "zh_TW": "",
+            "ja": "ところで指揮官は、昼と夜、どちらがお好きですか？",
+            "ko": "",
+            "en": "Which do you like better, Commander? The day, or the night?"
+          },
+          "good": {
+            "zh_CN": "白天。",
+            "zh_TW": "",
+            "ja": "昼",
+            "ko": "",
+            "en": "The day."
+          },
+          "bad": {
+            "zh_CN": "晚上。",
+            "zh_TW": "",
+            "ja": "夜",
+            "ko": "",
+            "en": "The night."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，您刚才打瞌睡了吧？很累吗？",
+            "zh_TW": "",
+            "ja": "指揮官、今ウトウトしていましたよね。お疲れなんですか？",
+            "ko": "",
+            "en": "Did you just doze off? Are you tired?"
+          },
+          "good": {
+            "zh_CN": "我刚刚在祈祷哦？",
+            "zh_TW": "",
+            "ja": "祈っていただけだ",
+            "ko": "",
+            "en": "Actually, I was praying."
+          },
+          "bad": {
+            "zh_CN": "啊，因为太累，打了一下瞌睡。",
+            "zh_TW": "",
+            "ja": "あぁ、そうだな⋯つい居眠りをしてしまった",
+            "ko": "",
+            "en": "Sorry. I'm pretty tired, so I must've dozed off for a second."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官喜欢开阔的大海，还是壮丽的高山呢？",
+            "zh_TW": "",
+            "ja": "指揮官は広々とした海と、すがすがしい山、どちらがお好きですか？",
+            "ko": "",
+            "en": "Commander, do you prefer the open sea or the refreshing mountains?"
+          },
+          "good": {
+            "zh_CN": "只要和玛丽安一起，哪里都好。",
+            "zh_TW": "",
+            "ja": "マリアンと一緒なら、どこだっていい",
+            "ko": "",
+            "en": "Anywhere's great, as long as I'm with you, Marian."
+          },
+          "bad": {
+            "zh_CN": "这个嘛……不知道。",
+            "zh_TW": "",
+            "ja": "さあ⋯よく分からない",
+            "ko": "",
+            "en": "Hmm... I'm not sure."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "指挥官，要不要和我猜拳？当然我会出剪刀的，您知道吧？来，剪刀～石头～布？",
+            "zh_TW": "",
+            "ja": "せーの⋯じゃん、けん、ぽん！",
+            "ko": "",
+            "en": "Okay, here goes! Rock... paper... scissors!"
+          },
+          "good": {
+            "zh_CN": "出布。",
+            "zh_TW": "",
+            "ja": "パーを出す",
+            "ko": "",
+            "en": "Throw paper."
+          },
+          "bad": {
+            "zh_CN": "出拳头。",
+            "zh_TW": "",
+            "ja": "グーを出す",
+            "ko": "",
+            "en": "Throw rock."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "不知道为什么，如果照着指挥官指的路走，好像反而会更晚到。",
+            "zh_TW": "",
+            "ja": "指揮官の言う通りに進むと、なぜか余計に時間がかかる気がします。",
+            "ko": "",
+            "en": "Whenever we go the way you pick, for some reason it feels like we always get there later than usual."
+          },
+          "good": {
+            "zh_CN": "我是故意的哦？",
+            "zh_TW": "",
+            "ja": "わざとだ",
+            "ko": "",
+            "en": "I do that on purpose."
+          },
+          "bad": {
+            "zh_CN": "其实……我是路痴没错。",
+            "zh_TW": "",
+            "ja": "実は⋯方向音痴なんだ",
+            "ko": "",
+            "en": "Actually... yeah, I'm bad with directions."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我一定会保护指挥官的。所以，请务必要永远和我在一起。",
+            "zh_TW": "",
+            "ja": "だから、これからもずっと一緒にいてくださいね。",
+            "ko": "",
+            "en": "So please stay with me for a long, long time."
+          },
+          "good": {
+            "zh_CN": "那玛丽安就由我来保护。",
+            "zh_TW": "",
+            "ja": "なら、マリアンのことは私が守る",
+            "ko": "",
+            "en": "And I'll protect you, too."
+          },
+          "bad": {
+            "zh_CN": "不对，应该是我要保护玛丽安才对吧。",
+            "zh_TW": "",
+            "ja": "いや、守られるのではなく、私がマリアンを守るべきだ",
+            "ko": "",
+            "en": "No, I should be the one protecting you."
+          }
+        }
+      ]
     }
   ],
-  "last_update": "2026-10-16"
+  "last_update": "2026-10-31"
 }
