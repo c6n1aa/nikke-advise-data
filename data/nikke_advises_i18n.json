@@ -78656,7 +78656,478 @@
           }
         }
       ]
+    },
+    {
+      "name": {
+        "zh_CN": "红莲：弑神",
+        "zh_TW": "",
+        "en": "Scarlet: Goddeath",
+        "ja": "紅蓮：神殺",
+        "ko": ""
+      },
+      "advises": [
+        {
+          "prompt": {
+            "zh_CN": "今天这酒，喝来格外甘美呢。少爷也来一杯如何？",
+            "zh_TW": "",
+            "ja": "ぼっちゃんも一杯どうだい？",
+            "ko": "",
+            "en": "Wouldst thou care for a glass, my Lord?"
+          },
+          "good": {
+            "zh_CN": "嗯，也给我一杯。",
+            "zh_TW": "",
+            "ja": "ああ、私も一杯もらおう",
+            "ko": "",
+            "en": "Sure, pour me a cup."
+          },
+          "bad": {
+            "zh_CN": "不了，我没什么兴趣。",
+            "zh_TW": "",
+            "ja": "いや、遠慮しておく",
+            "ko": "",
+            "en": "I'm good, thanks."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "我正细细回味，好让这场梦能在记忆里多留片刻。",
+            "zh_TW": "",
+            "ja": "今日見た夢を少しでも長く記憶に留めておきたくて、思い返しておったのだ。",
+            "ko": "",
+            "en": "I was but dwelling upon it, that I might linger a little longer in the memory."
+          },
+          "good": {
+            "zh_CN": "梦到你姐姐了？",
+            "zh_TW": "",
+            "ja": "お姉さんが出てきたのか？",
+            "ko": "",
+            "en": "Was it your sister?"
+          },
+          "bad": {
+            "zh_CN": "原来是梦到我了啊。",
+            "zh_TW": "",
+            "ja": "私が夢に出たんだな",
+            "ko": "",
+            "en": "It was me, wasn't it?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "倘若珍视之人，为了自己而牺牲了性命……少爷会怎么做呢？",
+            "zh_TW": "",
+            "ja": "もし大切な者が己を犠牲にして自分を救ったとしたら、ぼっちゃんはどうする？",
+            "ko": "",
+            "en": "what wouldst thou do?"
+          },
+          "good": {
+            "zh_CN": "我应该会想回报那份心意。",
+            "zh_TW": "",
+            "ja": "その愛に応えたいと思う",
+            "ko": "",
+            "en": "I think I'd want to return their love."
+          },
+          "bad": {
+            "zh_CN": "我大概会深陷愧疚之中吧。",
+            "zh_TW": "",
+            "ja": "罪悪感で苦しむと思う",
+            "ko": "",
+            "en": "I think the guilt would eat me up inside."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷，你觉得怎样才算是幸福地活着？我曾立下约定，却不知自己是否有好好遵守。",
+            "zh_TW": "",
+            "ja": "ぼっちゃん、幸せに生きるとはどういうことだと思う？",
+            "ko": "",
+            "en": "I gave my word, yet know not whether I have kept it as I ought."
+          },
+          "good": {
+            "zh_CN": "过着平静又平凡的日子。",
+            "zh_TW": "",
+            "ja": "穏やかで平凡な日常を送ること",
+            "ko": "",
+            "en": "Living a peaceful, ordinary life."
+          },
+          "bad": {
+            "zh_CN": "总是忍不住露出笑容。",
+            "zh_TW": "",
+            "ja": "自然と笑みがこぼれること",
+            "ko": "",
+            "en": "Finding yourself smiling without even realizing it."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷在什么样的日子里会想喝酒？",
+            "zh_TW": "",
+            "ja": "ぼっちゃん、どんな日に酒が恋しくなる？",
+            "ko": "",
+            "en": "On what sort of day dost thou find thyself longing for one?"
+          },
+          "good": {
+            "zh_CN": "心情好的日子。",
+            "zh_TW": "",
+            "ja": "気分がいい日",
+            "ko": "",
+            "en": "When I'm in a good mood."
+          },
+          "bad": {
+            "zh_CN": "心情低落的日子。",
+            "zh_TW": "",
+            "ja": "憂うつな日",
+            "ko": "",
+            "en": "When I'm feeling down."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷似乎有种能让人安心的本事。尤其面对少爷时，连心里话都会不自觉地说出口。",
+            "zh_TW": "",
+            "ja": "なざかぼっちゃんには、胸の内も自然と話せてしまうねぇ。",
+            "ko": "",
+            "en": "With thee, my innermost thoughts oft slip forth ere I realize it."
+          },
+          "good": {
+            "zh_CN": "我跟红莲待在一起也很自在。",
+            "zh_TW": "",
+            "ja": "私も紅蓮といると落ち着く",
+            "ko": "",
+            "en": "I feel comfortable around you too."
+          },
+          "bad": {
+            "zh_CN": "可能大家只是觉得跟我相处很自在吧。",
+            "zh_TW": "",
+            "ja": "みんな、私には気を遣わなくていいと思っているだけだ",
+            "ko": "",
+            "en": "I guess people just feel comfortable around me."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷，明日可有约？若是没有，我倒希望少爷能陪我一段时间。",
+            "zh_TW": "",
+            "ja": "ぼっちゃん、明日は何か予定があるかい？",
+            "ko": "",
+            "en": "If thou hast none, I would fain have thee spend it in mine company."
+          },
+          "good": {
+            "zh_CN": "没有，明天没事。",
+            "zh_TW": "",
+            "ja": "予定はない",
+            "ko": "",
+            "en": "I don't have any plans."
+          },
+          "bad": {
+            "zh_CN": "又要喝酒？",
+            "zh_TW": "",
+            "ja": "また酒か？",
+            "ko": "",
+            "en": "You wanna get a drink again?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷觉得，家人是怎样的存在？",
+            "zh_TW": "",
+            "ja": "ぼっちゃん、家族とは何だと思う？",
+            "ko": "",
+            "en": "What dost thou make of family?"
+          },
+          "good": {
+            "zh_CN": "光是存在，就能成为依靠的人。",
+            "zh_TW": "",
+            "ja": "そこにいてくれるだけで、心の支えになる存在",
+            "ko": "",
+            "en": "Someone who gives me strength just by being there."
+          },
+          "bad": {
+            "zh_CN": "就算每天闹脾气，也会包容自己的人。",
+            "zh_TW": "",
+            "ja": "毎日つんけんしていても、受け止めてくれる存在",
+            "ko": "",
+            "en": "Someone who puts up with me even when I'm being difficult."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷也有这般总是不自觉想起的人吗？",
+            "zh_TW": "",
+            "ja": "ぼっちゃんにも、そんなふうに何度も思い浮かべてしまう者はいるかい？",
+            "ko": "",
+            "en": "Pray tell, is there one who has oft crossed thy thoughts as well?"
+          },
+          "good": {
+            "zh_CN": "红莲。",
+            "zh_TW": "",
+            "ja": "紅蓮",
+            "ko": "",
+            "en": "You."
+          },
+          "bad": {
+            "zh_CN": "没有。",
+            "zh_TW": "",
+            "ja": "いない",
+            "ko": "",
+            "en": "Not really."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷觉得，何时饮酒最有情调？白天？还是晚上？",
+            "zh_TW": "",
+            "ja": "ぼっちゃんは、何時飲む酒に風情を感じる？",
+            "ko": "",
+            "en": "By day, or by night?"
+          },
+          "good": {
+            "zh_CN": "当然是晚上。",
+            "zh_TW": "",
+            "ja": "もちろん夜だ",
+            "ko": "",
+            "en": "Night, of course."
+          },
+          "bad": {
+            "zh_CN": "当然是白天。",
+            "zh_TW": "",
+            "ja": "もちろん昼だ",
+            "ko": "",
+            "en": "Day, of course."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "那边的花木开得煞是好看，我正想过去瞧瞧。少爷可要同行？",
+            "zh_TW": "",
+            "ja": "ぼっちゃんも一緒にどうだい？",
+            "ko": "",
+            "en": "Wouldst thou care to accompany me?"
+          },
+          "good": {
+            "zh_CN": "嗯，我也一起去。",
+            "zh_TW": "",
+            "ja": "ああ、私も行こう",
+            "ko": "",
+            "en": "Yeah, I'll come with you."
+          },
+          "bad": {
+            "zh_CN": "我很忙，应该没办法去。",
+            "zh_TW": "",
+            "ja": "忙しくて行けそうにない",
+            "ko": "",
+            "en": "I'm busy, so I don't think I can."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷是否有想一同共饮的人？",
+            "zh_TW": "",
+            "ja": "ぼっちゃん、一緒に飲んでみたい相手はいるかい？",
+            "ko": "",
+            "en": "Is there one with whom thou wouldst care to share a drink, my Lord?"
+          },
+          "good": {
+            "zh_CN": "红莲。",
+            "zh_TW": "",
+            "ja": "紅蓮",
+            "ko": "",
+            "en": "You."
+          },
+          "bad": {
+            "zh_CN": "反击部队。",
+            "zh_TW": "",
+            "ja": "カウンターズ",
+            "ko": "",
+            "en": "The Counters."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "若是夺回地面，少爷想做些什么？",
+            "zh_TW": "",
+            "ja": "地上奪還に成功したら、ぼっちゃんは何がしたい？",
+            "ko": "",
+            "en": "And thou, what wouldst thou do once we have reclaimed it?"
+          },
+          "good": {
+            "zh_CN": "我想享受大自然，悠闲地过日子。",
+            "zh_TW": "",
+            "ja": "自然を満喫しながら、のんびり暮らしたい",
+            "ko": "",
+            "en": "I want to enjoy nature and live somewhere quiet."
+          },
+          "bad": {
+            "zh_CN": "我想和大家一起住在市区里。",
+            "zh_TW": "",
+            "ja": "都会でみんなと一緒に暮らしたい",
+            "ko": "",
+            "en": "I want to live in the city with everyone else."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "那是一位十分强大，又无比温暖的人。",
+            "zh_TW": "",
+            "ja": "誰しも心のどこかに尊敬する者がいるものだ。もちろん、私にも。",
+            "ko": "",
+            "en": "Strong she was, and ever so warm."
+          },
+          "good": {
+            "zh_CN": "你姐姐？",
+            "zh_TW": "",
+            "ja": "お姉さんのことか？",
+            "ko": "",
+            "en": "Your sister?"
+          },
+          "bad": {
+            "zh_CN": "莉莉维丝？",
+            "zh_TW": "",
+            "ja": "リリーバイスのことか？",
+            "ko": "",
+            "en": "Liliweiss?"
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "不如陪我一同享受片刻风雅，如何？",
+            "zh_TW": "",
+            "ja": "私と一緒に風流を楽しまないかい？",
+            "ko": "",
+            "en": "What say ye to spending the day together, savoring life's finer pleasures at our leisure?"
+          },
+          "good": {
+            "zh_CN": "好啊。",
+            "zh_TW": "",
+            "ja": "そうしようか",
+            "ko": "",
+            "en": "Sure, why not?"
+          },
+          "bad": {
+            "zh_CN": "没办法。",
+            "zh_TW": "",
+            "ja": "そうはいかない",
+            "ko": "",
+            "en": "We can't do that."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷也知道，饮酒乃是我的嗜好。那少爷的嗜好又是什么？",
+            "zh_TW": "",
+            "ja": "ぼっちゃんの趣味はなんだい？",
+            "ko": "",
+            "en": "What of thee? What pastime dost thou favor?"
+          },
+          "good": {
+            "zh_CN": "运动或训练。",
+            "zh_TW": "",
+            "ja": "運動や訓練",
+            "ko": "",
+            "en": "Working out or training."
+          },
+          "bad": {
+            "zh_CN": "看书。",
+            "zh_TW": "",
+            "ja": "読書",
+            "ko": "",
+            "en": "Reading."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "倘若有人无法融入群体，受到冷落，少爷会怎么做？",
+            "zh_TW": "",
+            "ja": "もし輪の中に入れず、孤立している者がいたら、ぼっちゃんならどうする？",
+            "ko": "",
+            "en": "what wouldst thou do, my Lord?"
+          },
+          "good": {
+            "zh_CN": "主动照顾对方，帮他融入大家。",
+            "zh_TW": "",
+            "ja": "輪に入れるよう、気にかける",
+            "ko": "",
+            "en": "I'd help them feel included."
+          },
+          "bad": {
+            "zh_CN": "等对方自己融入大家。",
+            "zh_TW": "",
+            "ja": "自分から輪に入るまで待つ",
+            "ko": "",
+            "en": "I'd wait until they join in on their own."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "少爷，今日为何神色如此阴沉？",
+            "zh_TW": "",
+            "ja": "ぼっちゃん、どうした？ずいぶん浮かない顔をしているな。",
+            "ko": "",
+            "en": "My Lord, what hath so darkened thy countenance?"
+          },
+          "good": {
+            "zh_CN": "……我也不知道为什么，就是觉得心里有点闷，又有些焦躁。",
+            "zh_TW": "",
+            "ja": "⋯理由はよく分からないが、なんだか胸が苦しくて落ち着かないんだ",
+            "ko": "",
+            "en": "... I'm not sure why, but I feel a little restless and uneasy."
+          },
+          "bad": {
+            "zh_CN": "啊，没有啦。没什么事。",
+            "zh_TW": "",
+            "ja": "い、いや。何でもない",
+            "ko": "",
+            "en": "I-it's nothing, really."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "使用剑的妮姬实在不多，着实可惜。剑分明是如此潇洒的武器。",
+            "zh_TW": "",
+            "ja": "剣は見栄えのいい得物なのだが。",
+            "ko": "",
+            "en": "Such a splendid weapon, it is."
+          },
+          "good": {
+            "zh_CN": "没错，剑确实很帅。",
+            "zh_TW": "",
+            "ja": "確かに剣はカッコいい",
+            "ko": "",
+            "en": "Yeah, swords are definitely cooler."
+          },
+          "bad": {
+            "zh_CN": "毕竟枪用起来比较方便。",
+            "zh_TW": "",
+            "ja": "銃のほうが使いやすいからな",
+            "ko": "",
+            "en": "Well, guns are just easier to use."
+          }
+        },
+        {
+          "prompt": {
+            "zh_CN": "倘若有人向少爷提出强人所难的要求，少爷能断然拒绝吗？",
+            "zh_TW": "",
+            "ja": "もし誰かに無理な頼み事をされたら、きっぱり断れるかい？",
+            "ko": "",
+            "en": "Pray tell, if one were to make an unreasonable request of thee, wouldst thou possess the resolve to deny it without wavering?"
+          },
+          "good": {
+            "zh_CN": "当然可以啊。",
+            "zh_TW": "",
+            "ja": "もちろん断れる",
+            "ko": "",
+            "en": "Of course, I can."
+          },
+          "bad": {
+            "zh_CN": "其实我不太会……",
+            "zh_TW": "",
+            "ja": "実は断るのは苦手だ⋯",
+            "ko": "",
+            "en": "Honestly, I'm not very good at saying no..."
+          }
+        }
+      ]
     }
   ],
-  "last_update": "2026-10-31"
+  "last_update": "2026-11-06"
 }
